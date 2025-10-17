@@ -11,5 +11,5 @@
 
 **Challenge:** Add a navigation menu to the Header with 3 links
 
-**Output:**
+**Output**
 ![alt text](<Screenshot 2025-10-16 151324.png>)

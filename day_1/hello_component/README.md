@@ -10,6 +10,6 @@
    * A welcome message in another `<p>` tag
 3. Import and display it in `App.jsx`
 
-**Sample Output:**
+**Output**
 
 ![alt text](<Screenshot 2025-10-16 134014.png>)
