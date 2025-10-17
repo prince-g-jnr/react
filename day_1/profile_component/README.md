@@ -14,4 +14,5 @@
 **Challenge:** Create 2 different profiles in `App.jsx`
 
 **Output**
+
 ![alt text](<Screenshot 2025-10-16 141526.png>)
