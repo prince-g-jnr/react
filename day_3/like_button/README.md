@@ -12,6 +12,7 @@
 **Challenge:** Disable button for 1 second after clicking (prevent spam)
 
 **Output**
+
 **Liked**
 
 ![alt text](<Screenshot 2025-10-24 155219.png>)
