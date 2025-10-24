@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  #215166;
+}
+
+.container{
+  display: flex;
+  gap: 2%;
+  top: 25%;
+  left: 15%;
+  position: absolute;
+}
