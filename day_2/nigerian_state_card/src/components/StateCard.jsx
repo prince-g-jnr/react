@@ -1,6 +1,6 @@
 function StateCard({children}) {
     return (
-        <div>
+        <div className="card">
             {children}
         </div>
     )

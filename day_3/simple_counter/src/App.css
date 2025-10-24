@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  width: 50%;
+  justify-self: center;
+  margin-top: 20%;
+}
+
+.container {
+  background-color: #81804d;
   text-align: center;
+  padding: 48px;
+  border-radius: 8px;
+  color: #fff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.increment {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: green;
+  color: #fff;
+  font-size: 30px;
+  border: none;
 }
 
-.card {
-  padding: 2em;
+.increment:hover{
+  background-color: #17ca41;
+  cursor: pointer;
+}
+.decrement {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #0b0b8a;
+  color: #fff;
+  font-size: 30px;
+  border: none;
 }
 
-.read-the-docs {
-  color: #888;
+.decrement:hover {
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.reset {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #9b0808;
+  color: #fff;
+  border: none;
+}
+
+.reset:hover {
+  background-color: #ff0000;
+  cursor: pointer;
 }
