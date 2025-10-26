@@ -3,10 +3,10 @@ import { useState } from "react";
 function LikeButton() {
     const [like, setLike] = useState(false);
     const [likeCount, setLikeCount] = useState(0);
-    const [IsDisabled, setIsDisabled] = useState(false);
+    const [Disabled, setDisabled] = useState(true);
     
     function handleClicks () {
-        setIsDisabled(true);
+        setDisabled(false);
 
         setLike((currentLiked) => {
             const newLike = !currentLiked;
@@ -15,7 +15,7 @@ function LikeButton() {
         });
 
         setTimeout(() => {
-            setIsDisabled(false)
+            setDisabled(true)
         }, 1000);
     };
 
@@ -23,10 +23,10 @@ function LikeButton() {
         <div>
             <button 
              onClick={handleClicks}
-             disabled={IsDisabled}
+             IsDisabled={Disabled}
              className={`
                 ${like ? 'liked' : 'unliked'}
-                ${IsDisabled ? '' : ''}
+                ${Disabled ? '' : ''}
                 `}
             >
                 <span role="img" aria-label={like ? 'red heart' : 'white heart'}>
