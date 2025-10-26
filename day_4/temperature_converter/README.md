@@ -12,6 +12,6 @@
 5. When user types in Fahrenheit, Celsius updates automatically
 6. Formula: F = (C × 9/5) + 32, C = (F - 32) × 5/9
 
-**SOutput**
+**Output**
 
 ![alt text](<Screenshot 2025-10-26 164842.png>)
