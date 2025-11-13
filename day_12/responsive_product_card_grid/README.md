@@ -18,3 +18,7 @@ Create a product grid that:
 - Agbada - ₦25,000
 - Chin Chin - ₦500
 - Puff Puff - ₦300
+
+![alt text](<Screenshot 2025-11-12 130735.png>)
+
+![alt text](<Screenshot 2025-11-12 130755.png>)
