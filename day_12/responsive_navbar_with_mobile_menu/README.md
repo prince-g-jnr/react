@@ -13,6 +13,6 @@ Build a fully responsive navbar with:
 
 ![alt text](<Screenshot 2025-11-12 151926.png>)
 
-### ***Mobile View**
+### **Mobile View**
 
 ![alt text](<Screenshot 2025-11-12 151901.png>)
