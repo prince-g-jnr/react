@@ -1,23 +1,4 @@
 import { useState } from 'react'
-//           <div className="md:hidden flex flex-col justify-between w-6 h-5 cursor-pointer group">
-//             <span className="block w-full h-0.5 bg-white group-hover:bg-yellow-300"></span>
-//             <span className="block w-full h-0.5 bg-white group-hover:bg-yellow-300"></span>
-//             <span className="block w-full h-0.5 bg-white group-hover:bg-yellow-300"></span>
-//           </div>
-//         </div>
-//       </div>
-
-//       <div className="md:hidden mt-4 space-y-3 bg-green-800 p-4 rounded-lg">
-//         <a href="#" className="block text-white hover:text-yellow-300">Home</a>
-//         <a href="#" className="block text-white hover:text-yellow-300">Shop</a>
-//         <a href="#" className="block text-white hover:text-yellow-300">Deals</a>
-//         <a href="#" className="block text-white hover:text-yellow-300">Contact</a>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default ResponsiveNavbar
 
 function ResponsiveNavbar() {
 
